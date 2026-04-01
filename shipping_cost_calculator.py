@@ -1,3 +1,4 @@
+#Input
 weight = 400
 
 #Ground Shipping 
@@ -32,6 +33,7 @@ else:
   drone_cost = (weight * 14.25)
   print("Drone Shipping: ", drone_cost)
 
+#Output
 cheapest = min(ground_cost, premium_cost, drone_cost)
 print("Cheapest Option: ", "$", cheapest)
 
